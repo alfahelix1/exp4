@@ -1,26 +1,112 @@
-📌 Aim
-The aim of this experiment is to understand the concept of sets in Python and to study their properties.
-The experiment also focuses on performing basic operations on sets such as creation, adding elements, removing elements, and observing the behavior of duplicate values.
+📘✨ **EXPERIMENT 4: STUDY OF SETS IN PYTHON** ✨📘
 
-📖 Theory
-In Python, a set is a built-in data structure used to store a collection of elements. Sets are unordered, mutable, and do not allow duplicate values. This means that even if duplicate elements are added while creating a set, Python automatically removes them.
-Sets can contain elements of different data types such as integers, floats, strings, and booleans. Since sets are unordered, elements do not have fixed positions and cannot be accessed using indexing.
-Python provides several built-in methods to perform operations on sets.
-The add() method is used to insert a new element into a set.
-The remove() method is used to delete a specified element from the set.
-Sets are widely used in programming when uniqueness of elements is important and when fast membership testing is required.
+────────────────────────────────────────
 
-🧠 Algorithm
-Start the program.
-Create a set containing string elements and display the set.
-Create another set with mixed data types and observe how duplicate values are automatically removed.
-Create a third set to further demonstrate the uniqueness property of sets.
-Use the add() method to insert a new element into one of the sets.
-Display the set after adding the element.
-Use the remove() method to delete an element from the set.
-Display the set after removing the element.
-Stop the program.
+🎯 **1. AIM**
 
-✅ Conclusion
-From this experiment, it is concluded that sets in Python store only unique elements and do not maintain any specific order.
-The experiment also shows that sets can hold mixed data types and allow dynamic modification using methods like add() and remove(). Therefore, sets are very useful in situations where duplicate data must be avoided and efficient data handling is required.
+The main aim of this experiment is to understand the concept of **Sets in Python**.  
+This experiment helps in learning how sets are created, how they store unique elements, and how different set operations are performed using Python programs.  
+It also focuses on practical problem-solving using sets such as attendance tracking and course management.
+
+────────────────────────────────────────
+
+🛠️ **2. FUNCTIONS USED**
+
+The following built-in Python functions, methods, and operators are used in this experiment:
+
+🔹 **Built-in Functions**
+- `set()` – Used to create a set  
+- `print()` – Used to display output
+
+🔹 **Set Methods**
+- `add(element)` – Adds a new element to the set  
+- `remove(element)` – Removes a specific element (raises error if not found)  
+- `discard(element)` – Removes an element without raising an error
+
+🔹 **Set Operators**
+- `|` → Union  
+- `&` → Intersection  
+- `-` → Difference  
+
+────────────────────────────────────────
+
+📖 **3. THEORY**
+
+A **set** is a built-in data type in Python used to store multiple values in a single variable.
+
+🔸 **Important Characteristics of Sets**
+
+✔ Stores only **unique elements**  
+✔ Elements are **unordered**  
+✔ Does **not support indexing or slicing**  
+✔ Supports **mathematical set operations**  
+✔ Can store **multiple data types**  
+
+🔸 **Why Use Sets?**
+
+- To remove duplicate values  
+- To compare two or more collections  
+- To perform mathematical operations  
+- To improve performance in membership testing  
+
+🔸 **Real-Life Applications**
+
+- Attendance systems  
+- Course allocation systems  
+- Data comparison  
+- Removing duplicate records  
+
+────────────────────────────────────────
+
+🧮 **4. ALGORITHM (PROBLEM-WISE)**
+
+📌 **Problem 1: Creation and Display of a Set**
+
+1️⃣ Start the program  
+2️⃣ Create a set with elements  
+3️⃣ Display the set  
+4️⃣ Observe unordered output  
+5️⃣ Stop  
+
+📌 **Problem 2: Indexing in Sets**
+
+1️⃣ Create a set  
+2️⃣ Try accessing elements using index  
+3️⃣ Error occurs  
+4️⃣ Conclude indexing is not supported  
+5️⃣ Stop  
+
+📌 **Problem 3: Mixed Data Types in a Set**
+
+1️⃣ Create a set with int, float, string, boolean  
+2️⃣ Display the set  
+3️⃣ Observe uniqueness  
+4️⃣ Stop  
+
+📌 **Problem 4: Finding Absent Students**
+
+1️⃣ Create a set of all students  
+2️⃣ Create a set of present students  
+3️⃣ Subtract present from total  
+4️⃣ Display absent students  
+5️⃣ Stop  
+
+📌 **Problem 5: Removing Invalid Course Code**
+
+1️⃣ Create a set of course codes  
+2️⃣ Identify invalid code  
+3️⃣ Remove using `remove()` or `discard()`  
+4️⃣ Display updated set  
+5️⃣ Stop  
+
+────────────────────────────────────────
+
+✅ **5. CONCLUSION**
+
+This experiment helped in understanding the fundamentals of **sets in Python**.  
+We learned about their properties, limitations, and advantages.  
+Set operations such as union, intersection, and difference make Python powerful for handling real-world data efficiently.  
+
+Overall, this experiment strengthens the understanding of Python data structures and improves problem-solving skills.
+
+────────────────────────────────────────
